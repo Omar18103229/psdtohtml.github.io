@@ -1,0 +1,149 @@
+/*// X-Small devices (portrait phones, less than 576px)*/
+@media (min-width: 320px) and (max-width: 575px) { 
+    .welcome p{
+        text-align: center;
+    }
+    .icon{
+        display: none;
+    }
+
+/* menu part responsive start */
+    .navbar-nav {
+        margin-top: 10px;
+    }
+    .navbar-nav .nav-item .nav-link.active{
+        color: white;
+    }
+    .navbar-nav .nav-item .nav-link{
+        background-color: green;
+        text-align: center;
+        color: white;
+        border-bottom: 1px solid #fff;
+    }
+/* menu part responsive end*/
+
+    .ban_con{
+        text-align: center;
+    }
+    .ban_con h1{
+        font-size: 34px;
+    }
+  
+    .sm_d_none{
+        display: none;
+    }
+    .ser_icon_main {
+    left: 113px;
+}
+    .ser_main{
+        margin-bottom: 20px;
+    }
+    
+    .big_img{
+        margin-bottom: 15px;    
+    }
+    
+    .round_img img{
+        margin-top: 40px;
+    }
+    .piramid {
+    left: 43%;
+
+}
+    
+    footer{
+        text-align: center;
+    }
+    
+    .f_icon a{
+        margin-left: 30px;
+    }
+    .f_email p{
+        text-align: left;
+    }
+    .sm_margin{
+        margin-left: 60px;
+    }
+   
+    
+    
+
+}
+
+/*// Small devices (landscape phones, less than 768px)*/
+@media (min-width: 576px) and (max-width: 767px) { 
+
+/* menu part responsive start */
+    .navbar-nav {
+        margin-top: 10px;
+    }
+    .navbar-nav .nav-item .nav-link.active{
+        color: white;
+    }
+    .navbar-nav .nav-item .nav-link{
+        background-color: green;
+        text-align: center;
+        color: white;
+        border-bottom: 1px solid #fff;
+    }
+/* menu part responsive end*/
+    
+      .sm_d_none{
+        display: none;
+    }
+    .about_con{
+        padding-top: 0;
+    }
+    
+    .about_con p {
+    padding-top: 0px;
+    line-height: 27px;
+    font-size: 13px;
+        text-align: justify;
+
+}
+    .ser_icon_main {
+    left: 205px;
+
+}
+    .ser_main{
+        margin-bottom: 40px;
+    }
+    .big_img{
+        margin-bottom: 15px;    
+    }
+    
+    
+    
+    footer{
+        text-align: center;
+    }
+    
+    .f_icon a{
+        margin-left: 160px;
+    }
+    .f_email p{
+        text-align: left;
+    }
+    .sm_margin{
+        margin-left: 160px;
+    }
+   
+    
+    
+    
+
+}
+
+/*// Medium devices (tablets, less than 992px)*/
+@media (min-width: 768px) and (max-width: 991px) { ... }
+
+/*// Large devices (desktops, less than 1200px)*/
+@media  (min-width: 992px) and (max-width: 1199px) { ... }
+
+/*// X-Large devices (large desktops, less than 1400px)*/
+@media  (min-width:  1200px) and (max-width: 1399px) { ... }
+
+/*// XX-Large devices (larger desktops)*/
+@media  (min-width:  1400px)  { ... }
+/*// No media query since the xxl breakpoint has no upper bound on its width*/
